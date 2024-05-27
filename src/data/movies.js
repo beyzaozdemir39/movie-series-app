@@ -1,0 +1,21 @@
+const movies = [
+  { title: "Esaretin Bedeli", rating: 8.5, releaseYear: 2019, poster: "/images/movies/esaretinbedeli.jpeg", type: "movie" },
+  { title: "Dune", rating: 8.2, releaseYear: 2021, poster: "/images/movies/dune.jpeg", type: "movie" },
+  { title: "Garfield", rating: 7.9, releaseYear: 2004, poster: "/images/movies/garfield.jpeg", type: "movie" },
+  { title: "Jumanji", rating: 7.5, releaseYear: 2017, poster: "/images/movies/jumanji.jpeg",  type: "movie" },
+  { title: "Schindler'in Listesi", rating: 8.9, releaseYear: 1993, poster: "/images/movies/schindlerinlistesi.jpeg",  type: "movie" },
+  { title: "Kara Şövalye", rating: 9.0, releaseYear: 2008, poster: "/images/movies/karasovelye.jpeg",  type: "movie" },
+  { title: "Forest Gump", rating: 8.8, releaseYear: 1994, poster: "/images/movies/forestgump.jpeg",  type: "movie" },
+  { title: "Leon Sevginin Gücü", rating: 8.6, releaseYear: 1994, poster: "/images/movies/leon.jpeg",  type: "movie" },
+  { title: "Dövüş Kulübü", rating: 8.8, releaseYear: 1999, poster: "/images/movies/dovuskulubu.jpeg",  type: "movie" },
+  { title: "Hayat Güzeldir", rating: 8.1, releaseYear: 1997, poster: "/images/movies/hayatguzeldir.jpeg",  type: "movie" },
+  { title: "The Matrix", rating: 8.7, releaseYear: 1999, poster: "/images/movies/matrix.jpeg",  type: "movie" },
+  { title: "Piyanist", rating: 8.5, releaseYear: 2002, poster: "/images/movies/piyanist.jpeg",  type: "movie" },
+  { title: "Dune Çöl Gezegeni", rating: 7.5, releaseYear: 2021, poster: "/images/movies/dune2.jpeg",  type: "movie" },
+  { title: "Yıldızlararası", rating: 7.4, releaseYear: 2014, poster: "/images/movies/yildizlararasi.jpeg",  type: "movie" },
+  { title: "Bir Zamanlar Amerika", rating: 8.5, releaseYear: 1984, poster: "/images/movies/birzamanlaramerika.jpeg",  type: "movie" },
+  { title: "Örümcek Adam Örümcek Evreninde", rating: 7.5, releaseYear: 2021, poster: "/images/movies/orumcekadam.jpeg",  type: "movie" },
+  { title: "Savaş Vadisi", rating: 7.1, releaseYear: 2005, poster: "/images/movies/savas.jpeg",  type: "movie" },
+  { title: "Can Dostum", rating: 7.4, releaseYear: 2005, poster: "/images/movies/candostum.jpeg",  type: "movie" },
+];
+export default movies;

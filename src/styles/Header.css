@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+  }
+  
+  .header-bottom {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .auth-buttons .login-btn,
+  .auth-buttons .signup-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .auth-buttons .signup-btn {
+    background-color: red;
+    border-color: red;
+  }
+  
+  .auth-buttons .login-btn:hover,
+  .auth-buttons .signup-btn:hover {
+    background-color: white;
+    color: black;
+  }
+  

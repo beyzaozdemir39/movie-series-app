@@ -1,0 +1,40 @@
+.home-page {
+    text-align: center;
+  }
+  
+  .home-page main {
+    padding: 20px;
+  }
+  
+  .home-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .featured-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .featured-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .featured-item img {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .featured-item p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
